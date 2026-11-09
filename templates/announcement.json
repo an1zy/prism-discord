@@ -1,0 +1,43 @@
+{
+  "title": "📢 Важное объявление",
+  "description": "Приветствуем участников сообщества! Мы подготовили большое обновление нашей инфраструктуры и серверов.",
+  "url": "https://discord.com",
+  "color": 15445902,
+  "author": {
+    "name": "PRISM News",
+    "icon_url": "https://raw.githubusercontent.com/an1zy/an1zy/main/assets/avatar.png"
+  },
+  "fields": [
+    {
+      "name": "🚀 Что нового",
+      "value": "Автоматическая модерация, новые каналы и роли активности.",
+      "inline": false
+    },
+    {
+      "name": "⏰ Время запуска",
+      "value": "Сегодня в 20:00 МСК",
+      "inline": true
+    },
+    {
+      "name": "💬 Обсуждение",
+      "value": "В канале #general-chat",
+      "inline": true
+    }
+  ],
+  "buttons": [
+    {
+      "label": "Сайт проекта",
+      "url": "https://discord.com",
+      "emoji": "🌐"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/an1zy/prism-discord",
+      "emoji": "⭐"
+    }
+  ],
+  "footer": {
+    "text": "Администрация сервера • Все права защищены"
+  },
+  "timestamp": true
+}

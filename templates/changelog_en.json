@@ -1,0 +1,26 @@
+{
+  "title": "🚀 Version 2.0.0 Update Changelog",
+  "description": "PRISM Studio v2.0 brings major enhancements to Discord bot and webhook management.",
+  "color": 3447003,
+  "fields": [
+    {
+      "name": "✨ Multi-Bot Fleet",
+      "value": "Unified management for multiple Discord bots and webhooks with fast profile switching.",
+      "inline": false
+    },
+    {
+      "name": "⏱️ Timed Giveaways",
+      "value": "Automated countdown timer, entrant tracking, and winner announcements in real time.",
+      "inline": false
+    },
+    {
+      "name": "🌍 Bilingual UI & Themes",
+      "value": "Full Russian and English support with 5 customizable terminal color palettes.",
+      "inline": false
+    }
+  ],
+  "footer": {
+    "text": "PRISM • Next-Gen Discord Studio"
+  },
+  "timestamp": true
+}

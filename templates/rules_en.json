@@ -1,0 +1,43 @@
+{
+  "title": "📜 Server Rules & Verification",
+  "description": "Please read our community guidelines carefully. Respect fellow members and have fun!",
+  "color": 5763719,
+  "fields": [
+    {
+      "name": "1. Mutual Respect",
+      "value": "No toxic behavior, harassment, discrimination, or hate speech.",
+      "inline": false
+    },
+    {
+      "name": "2. No Spam",
+      "value": "Avoid flood, excessive tagging, unsolicited ads, and referral links.",
+      "inline": false
+    },
+    {
+      "name": "3. Channel Topics",
+      "value": "Keep discussions in their designated text and voice channels.",
+      "inline": false
+    }
+  ],
+  "buttons": [
+    {
+      "label": "I Agree to Rules",
+      "emoji": "✅",
+      "action_type": "verify",
+      "style": 3,
+      "custom_id": "prism_verify_rules",
+      "response_text": "✅ Verification complete! Thank you for accepting the rules. Welcome aboard!"
+    },
+    {
+      "label": "Discord Server",
+      "url": "https://discord.gg",
+      "emoji": "📖",
+      "action_type": "link",
+      "style": 5
+    }
+  ],
+  "footer": {
+    "text": "PRISM Security & Moderation"
+  },
+  "timestamp": true
+}

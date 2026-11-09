@@ -1,0 +1,43 @@
+{
+  "title": "🎉 DISCORD NITRO GIVEAWAY",
+  "description": "To celebrate reaching a new milestone in our community, we are giving away Discord Nitro subscriptions!\nClick the button below to enter.",
+  "color": 15418782,
+  "fields": [
+    {
+      "name": "🎁 Prize Pool",
+      "value": "• 1st Place: Discord Nitro Full (1 Month)\n• 2nd & 3rd Place: Discord Nitro Basic",
+      "inline": false
+    },
+    {
+      "name": "📋 Requirements",
+      "value": "Click the «Enter Giveaway» button below and remain in the server.",
+      "inline": true
+    },
+    {
+      "name": "⏳ Winner Draw",
+      "value": "Automated draw via PRISM Studio.",
+      "inline": true
+    }
+  ],
+  "buttons": [
+    {
+      "label": "Enter Giveaway",
+      "emoji": "🎉",
+      "action_type": "giveaway",
+      "style": 1,
+      "custom_id": "prism_giveaway_nitro",
+      "response_text": "🎉 You have successfully entered the giveaway! Best of luck!"
+    },
+    {
+      "label": "Official Rules",
+      "url": "https://discord.gg",
+      "emoji": "📜",
+      "action_type": "link",
+      "style": 5
+    }
+  ],
+  "footer": {
+    "text": "PRISM Giveaway Engine • Good luck to all participants!"
+  },
+  "timestamp": true
+}

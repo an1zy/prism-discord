@@ -1,0 +1,26 @@
+{
+  "title": "🟢 Service Infrastructure Status",
+  "description": "Current real-time operational status across all community services.",
+  "color": 5763719,
+  "fields": [
+    {
+      "name": "Discord Bot",
+      "value": "`🟢 ONLINE` • 99.98% Uptime",
+      "inline": true
+    },
+    {
+      "name": "API Gateway",
+      "value": "`🟢 OPERATIONAL` • 14ms",
+      "inline": true
+    },
+    {
+      "name": "Database",
+      "value": "`🟢 HEALTHY` • 0 errors",
+      "inline": true
+    }
+  ],
+  "footer": {
+    "text": "PRISM Health Monitoring"
+  },
+  "timestamp": true
+}

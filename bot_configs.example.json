@@ -1,0 +1,40 @@
+{
+  "DefaultBot": {
+    "bot_alias": "DefaultBot",
+    "automod": {
+      "enabled": true,
+      "anti_invite": true,
+      "anti_spam": true,
+      "anti_caps": false,
+      "bad_words": [],
+      "log_channel_id": null,
+      "warn_in_chat": true,
+      "chat_commands": true
+    },
+    "ai": {
+      "enabled": false,
+      "provider": "gemini",
+      "api_key": "",
+      "model": "gemini-1.5-flash",
+      "system_prompt": "You are a friendly and helpful Discord server assistant.",
+      "trigger_mode": "mention",
+      "channel_id": null
+    },
+    "welcomer": {
+      "enabled": false,
+      "auto_role_id": null,
+      "welcome_channel_id": null,
+      "welcome_title": "👋 Добро пожаловать на сервер, {user}!",
+      "welcome_desc": "Рады видеть тебя в нашем сообществе! Приятного общения.",
+      "welcome_color": 15445902
+    },
+    "tickets": {
+      "enabled": true,
+      "support_role_id": null,
+      "category_channel_id": null,
+      "panel_channel_id": null,
+      "log_channel_id": null,
+      "prefix": "ticket-"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "⚡ Version Release v2.4.0 — Performance & Stability",
+  "description": "Here is the breakdown of what has been shipped in today's server update.",
+  "color": 15445902,
+  "fields": [
+    {
+      "name": "✨ What's New",
+      "value": "• Custom soundboard channels\n• Slash command autocomplete support\n• High-bitrate audio relays",
+      "inline": false
+    },
+    {
+      "name": "🛠️ Improvements",
+      "value": "• 40% reduction in gateway latency\n• Automated role synchronization",
+      "inline": true
+    },
+    {
+      "name": "🐛 Bug Fixes",
+      "value": "• Resolved voice state disconnect bugs\n• Fixed permissions sync on threads",
+      "inline": true
+    }
+  ],
+  "footer": {
+    "text": "PRISM Studio • Authored by an1zy"
+  },
+  "timestamp": true
+}

@@ -1,0 +1,70 @@
+{
+  "title": "⚡ PRISM • Systems Test Bench",
+  "description": "This is a test message to verify all capabilities of **PRISM Studio**.\nExplore information fields, layout styling, and interactive scenario buttons below.",
+  "url": "https://discord.com",
+  "color": 15445902,
+  "author": {
+    "name": "an1zy • Dev Lab",
+    "icon_url": "https://raw.githubusercontent.com/an1zy/an1zy/main/assets/avatar.png",
+    "url": "https://github.com/an1zy"
+  },
+  "fields": [
+    {
+      "name": "System Status",
+      "value": "`🟢 ONLINE` • Latency 12ms",
+      "inline": true
+    },
+    {
+      "name": "Release Version",
+      "value": "`v1.1.0-STABLE`",
+      "inline": true
+    },
+    {
+      "name": "Environment",
+      "value": "Windows x64 • Rich UI",
+      "inline": true
+    },
+    {
+      "name": "🚀 Verification Items:",
+      "value": "• Accent color border (Peach `#EBAF8E`)\n• Responsive 3-column field grid\n• Interactive scenario buttons and ephemeral feedback\n• External link buttons",
+      "inline": false
+    }
+  ],
+  "buttons": [
+    {
+      "label": "Test Giveaway",
+      "emoji": "🎉",
+      "action_type": "giveaway",
+      "style": 1,
+      "custom_id": "prism_giveaway_test",
+      "response_text": "🎉 Test passed! You have successfully registered in the test giveaway."
+    },
+    {
+      "label": "Verification",
+      "emoji": "✅",
+      "action_type": "verify",
+      "style": 3,
+      "custom_id": "prism_verify_test",
+      "response_text": "✅ Verification test successful! Access granted."
+    },
+    {
+      "label": "Secret Bonus",
+      "emoji": "🎁",
+      "action_type": "custom",
+      "style": 4,
+      "custom_id": "prism_secret_test",
+      "response_text": "🎁 Secret promo code: PRISM-SUPER-TEST-2026! Visible only to you."
+    },
+    {
+      "label": "Discord Server",
+      "url": "https://discord.gg",
+      "emoji": "🌐",
+      "action_type": "link",
+      "style": 5
+    }
+  ],
+  "footer": {
+    "text": "PRISM Verification Suite • All systems nominal"
+  },
+  "timestamp": true
+}

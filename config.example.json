@@ -1,0 +1,12 @@
+{
+  "bot_token": "YOUR_DEFAULT_DISCORD_BOT_TOKEN_HERE",
+  "theme": "peach",
+  "language": "auto",
+  "bots": {
+    "MyBot": {
+      "token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+      "name": "MyBot",
+      "updated_at": "2026-01-01T00:00:00+00:00"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "📢 Community Announcement",
+  "description": "Welcome to our official Discord community! We are excited to present our latest server updates.",
+  "color": 15445902,
+  "fields": [
+    {
+      "name": "🚀 What's New",
+      "value": "• Improved verification system with instant role assignment\n• Regular automated giveaways with live results\n• Enhanced channel navigation and links",
+      "inline": false
+    },
+    {
+      "name": "💡 Help & Support",
+      "value": "Have questions? Open a ticket in #support.",
+      "inline": true
+    }
+  ],
+  "buttons": [
+    {
+      "label": "Discord Server",
+      "url": "https://discord.gg",
+      "emoji": "🌐",
+      "action_type": "link",
+      "style": 5
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/an1zy",
+      "emoji": "⭐",
+      "action_type": "link",
+      "style": 5
+    }
+  ],
+  "footer": {
+    "text": "PRISM Announcement System"
+  },
+  "timestamp": true
+}

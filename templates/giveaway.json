@@ -1,0 +1,43 @@
+{
+  "title": "🎉 БОЛЬШОЙ РОЗЫГРЫШ DISCORD NITRO",
+  "description": "В честь достижения новой отметки участников нашего сообщества мы разыгрываем подписки Discord Nitro!\nНажмите кнопку ниже, чтобы принять участие.",
+  "color": 15418782,
+  "fields": [
+    {
+      "name": "🎁 Призовые места",
+      "value": "• 1-е место: Discord Nitro Full (1 месяц)\n• 2-е и 3-е места: Discord Nitro Basic",
+      "inline": false
+    },
+    {
+      "name": "📋 Условия участия",
+      "value": "Нажать кнопку «Участвовать» ниже и состоять на сервере.",
+      "inline": true
+    },
+    {
+      "name": "⏳ Итоги",
+      "value": "Выбор победителя через PRISM Studio.",
+      "inline": true
+    }
+  ],
+  "buttons": [
+    {
+      "label": "Участвовать в розыгрыше",
+      "emoji": "🎉",
+      "action_type": "giveaway",
+      "style": 1,
+      "custom_id": "prism_giveaway_nitro",
+      "response_text": "🎉 Вы успешно зарегистрированы в розыгрыше! Желаем удачи!"
+    },
+    {
+      "label": "Правила конкурса",
+      "url": "https://discord.gg",
+      "emoji": "📜",
+      "action_type": "link",
+      "style": 5
+    }
+  ],
+  "footer": {
+    "text": "PRISM Giveaway Engine • Желаем всем удачи!"
+  },
+  "timestamp": true
+}

@@ -1,0 +1,26 @@
+{
+  "title": "🟢 Infrastructure Status: All Systems Operational",
+  "description": "Real-time health report for core clusters, API gateways, and community bots.",
+  "color": 5763719,
+  "fields": [
+    {
+      "name": "Main Discord Gateway",
+      "value": "🟢 100% Operational (14ms)",
+      "inline": true
+    },
+    {
+      "name": "Database Cluster",
+      "value": "🟢 Synchronized (0.01% load)",
+      "inline": true
+    },
+    {
+      "name": "Voice Relays (EU)",
+      "value": "🟢 0% Packet Loss",
+      "inline": true
+    }
+  ],
+  "footer": {
+    "text": "PRISM Live Monitor • Automatically updated"
+  },
+  "timestamp": true
+}

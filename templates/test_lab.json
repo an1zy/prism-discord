@@ -1,0 +1,70 @@
+{
+  "title": "⚡ PRISM • Тестовый стенд и проверка систем",
+  "description": "Это тестовое сообщение для проверки всех возможностей **PRISM Studio**.\nНиже представлены блоки информации, разные стили оформления и интерактивные кнопки со сценариями.",
+  "url": "https://discord.com",
+  "color": 15445902,
+  "author": {
+    "name": "an1zy • Dev Lab",
+    "icon_url": "https://raw.githubusercontent.com/an1zy/an1zy/main/assets/avatar.png",
+    "url": "https://github.com/an1zy"
+  },
+  "fields": [
+    {
+      "name": "Статус системы",
+      "value": "`🟢 ONLINE` • Задержка 12ms",
+      "inline": true
+    },
+    {
+      "name": "Текущая версия",
+      "value": "`v1.1.0-STABLE`",
+      "inline": true
+    },
+    {
+      "name": "Среда окружения",
+      "value": "Windows x64 • Rich UI",
+      "inline": true
+    },
+    {
+      "name": "🚀 Что проверяем:",
+      "value": "• Корректность цветной полоски (Peach `#EBAF8E`)\n• Сетку информационных полей (3 в ряд)\n• Срабатывание кнопок и личные ответы ботом\n• Ссылочные кнопки во внешние сервисы",
+      "inline": false
+    }
+  ],
+  "buttons": [
+    {
+      "label": "Тест Розыгрыша",
+      "emoji": "🎉",
+      "action_type": "giveaway",
+      "style": 1,
+      "custom_id": "prism_giveaway_test",
+      "response_text": "🎉 Тест пройден! Вы успешно зарегистрированы в тестовом розыгрыше."
+    },
+    {
+      "label": "Верификация",
+      "emoji": "✅",
+      "action_type": "verify",
+      "style": 3,
+      "custom_id": "prism_verify_test",
+      "response_text": "✅ Тест верификации успешен! Доступ подтвержден."
+    },
+    {
+      "label": "Секретный бонус",
+      "emoji": "🎁",
+      "action_type": "custom",
+      "style": 4,
+      "custom_id": "prism_secret_test",
+      "response_text": "🎁 Секретный промокод: PRISM-SUPER-TEST-2026! Виден только вам."
+    },
+    {
+      "label": "Discord Сервер",
+      "url": "https://discord.gg",
+      "emoji": "🌐",
+      "action_type": "link",
+      "style": 5
+    }
+  ],
+  "footer": {
+    "text": "PRISM Verification Suite • Тест завершен успешно"
+  },
+  "timestamp": true
+}

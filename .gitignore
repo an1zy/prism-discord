@@ -1,0 +1,24 @@
+# Sensitive local user credentials (never commit tokens, webhooks, or personal server configs!)
+config.json
+webhooks.json
+history.json
+giveaways.json
+bot_configs.json
+components.json
+warns.json
+transcripts/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+*.log
+
+# PyInstaller & Build artifacts
+build/
+dist/
+*.spec
